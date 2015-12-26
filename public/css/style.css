@@ -1,0 +1,15 @@
+.grid-container {
+  height: 720px;
+  width: 620px;
+  padding: 0 10px;
+}
+
+.grid-container .one-hour-slot {
+  height: 60px;
+  border: 1px solid #f0f0f0;
+  border-top: 0;
+}
+
+.grid-container .one-hour-slot:first-child {
+  border-top: 1px solid #f0f0f0;
+}
