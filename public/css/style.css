@@ -3,6 +3,7 @@
   width: 150px;
   float: left;
   text-align: right;
+  margin-top: -7px;
 }
 
 .time-container .time-description-large {
@@ -18,9 +19,9 @@
 .grid-container {
   height: 720px;
   width: 620px;
-  padding: 0 10px;
+  margin: 0 10px;
   float: left;
-  margin-top: 7px;
+  position: relative;
 }
 
 .grid-container .one-hour-slot {
@@ -31,4 +32,11 @@
 
 .grid-container .one-hour-slot:first-child {
   border-top: 1px solid #f0f0f0;
+}
+
+.event {
+  position: absolute;
+  background-color: blue;
+  height: 200px;
+  width: 400px;
 }

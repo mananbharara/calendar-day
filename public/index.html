@@ -4,107 +4,106 @@
   <meta charset="UTF-8">
   <title>Today</title>
   <link rel="stylesheet" href="css/style.css"/>
-  <script type="text/javascript" src="js/event-group.js"></script>
+  <script type="text/javascript" src="lib/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="js/group-events.js"></script>
   <script type="text/javascript" src="js/overlap-slot.js"></script>
+  <script type="text/javascript" src="js/render-slots.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body style="margin-top: 40px">
-<div class="time-container">
-  <div class="time-description-large">
-    9:00 AM
+<div class="day-container">
+  <div class="time-container">
+    <div class="time-description-large">
+      9:00 AM
+    </div>
+    <div class="time-description-small">
+      9:30
+    </div>
+    <div class="time-description-large">
+      10:00 AM
+    </div>
+    <div class="time-description-small">
+      10:30
+    </div>
+    <div class="time-description-large">
+      11:00 AM
+    </div>
+    <div class="time-description-small">
+      11:30
+    </div>
+    <div class="time-description-large">
+      12:00 AM
+    </div>
+    <div class="time-description-small">
+      12:30
+    </div>
+    <div class="time-description-large">
+      1:00 PM
+    </div>
+    <div class="time-description-small">
+      1:30
+    </div>
+    <div class="time-description-large">
+      2:00 PM
+    </div>
+    <div class="time-description-small">
+      2:30
+    </div>
+    <div class="time-description-large">
+      3:00 PM
+    </div>
+    <div class="time-description-small">
+      3:30
+    </div>
+    <div class="time-description-large">
+      4:00 PM
+    </div>
+    <div class="time-description-small">
+      4:30
+    </div>
+    <div class="time-description-large">
+      5:00 PM
+    </div>
+    <div class="time-description-small">
+      5:30
+    </div>
+    <div class="time-description-large">
+      6:00 PM
+    </div>
+    <div class="time-description-small">
+      6:30
+    </div>
+    <div class="time-description-large">
+      7:00 PM
+    </div>
+    <div class="time-description-small">
+      7:30
+    </div>
+    <div class="time-description-large">
+      8:00 PM
+    </div>
+    <div class="time-description-small">
+      8:30
+    </div>
+    <div class="time-description-large">
+      9:00 PM
+    </div>
   </div>
-  <div class="time-description-small">
-    9:30
+  <div class="grid-container">
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
+    <div class="one-hour-slot"></div>
   </div>
-  <div class="time-description-large">
-    10:00 AM
-  </div>
-  <div class="time-description-small">
-    10:30
-  </div>
-  <div class="time-description-large">
-    11:00 AM
-  </div>
-  <div class="time-description-small">
-    11:30
-  </div>
-  <div class="time-description-large">
-    12:00 AM
-  </div>
-  <div class="time-description-small">
-    12:30
-  </div>
-  <div class="time-description-large">
-    1:00 PM
-  </div>
-  <div class="time-description-small">
-    1:30
-  </div>
-  <div class="time-description-large">
-    2:00 PM
-  </div>
-  <div class="time-description-small">
-    2:30
-  </div>
-  <div class="time-description-large">
-    3:00 PM
-  </div>
-  <div class="time-description-small">
-    3:30
-  </div>
-  <div class="time-description-large">
-    3:00 PM
-  </div>
-  <div class="time-description-small">
-    3:30
-  </div>
-  <div class="time-description-large">
-    4:00 PM
-  </div>
-  <div class="time-description-small">
-    4:30
-  </div>
-  <div class="time-description-large">
-    5:00 PM
-  </div>
-  <div class="time-description-small">
-    5:30
-  </div>
-  <div class="time-description-large">
-    6:00 PM
-  </div>
-  <div class="time-description-small">
-    6:30
-  </div>
-  <div class="time-description-large">
-    7:00 PM
-  </div>
-  <div class="time-description-small">
-    7:30
-  </div>
-  <div class="time-description-large">
-    8:00 PM
-  </div>
-  <div class="time-description-small">
-    8:30
-  </div>
-  <div class="time-description-large">
-    9:00 PM
-  </div>
-</div>
-<div class="grid-container">
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
-  <div class="one-hour-slot"></div>
+  <div style="clear: both"></div>
 </div>
 </body>
 </html>

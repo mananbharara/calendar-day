@@ -1,4 +1,4 @@
-describe('Rendering of all event slots', function () {
+describe('Overlap slot definition', function () {
   it('should sort the events according to start time', function () {
     var overlapSlot = new OverlapSlot({
       start: 30,
@@ -11,7 +11,7 @@ describe('Rendering of all event slots', function () {
     expect(overlapSlot.events[2].start).toEqual(200);
   });
 
-  it('should decide assign adjacent column to an event if another event is already ongoing', function () {
+  it('should assign adjacent column to an event if another event is already ongoing', function () {
     var overlapSlot = new OverlapSlot({
       start: 30,
       end: 280,
