@@ -8,7 +8,7 @@ body {
   width: 150px;
   float: left;
   text-align: right;
-  margin-top: -8px;
+  line-height: 0;
 }
 
 .time-container .time-description-large {
