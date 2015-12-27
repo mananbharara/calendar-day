@@ -22,6 +22,11 @@ body {
   color: #bebebe;
 }
 
+.am-pm {
+  color: #bebebe;
+  font-size: 0.7em;
+}
+
 .grid-container {
   height: 720px;
   width: 620px;
