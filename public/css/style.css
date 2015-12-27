@@ -43,7 +43,7 @@ body {
 .event {
   position: absolute;
   background-color: #f5f5f5;
-  border-left: 3px solid green;
+  border-left: 3px solid #47b28d;
 }
 
 .event .event-desc {
@@ -51,7 +51,7 @@ body {
 }
 
 .event .event-desc .event-title {
-  color: green;
+  color: #47b28d;
 }
 
 .event .event-desc .event-location {
